@@ -88,19 +88,21 @@ color: black;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 80px;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: justify;
+
+
 }
 
 .imagen-zapas{
-    height: 500px;
-    width: 500px
-}
-
-.lista-botones{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 10px;
+    height: 400px;
+    width: 400px
 }
 
 .boton1{
@@ -108,14 +110,26 @@ color: black;
     font-weight:500;
     background-color: black;
     color: white;
+    padding: 4px;
 
 }
 
 .boton2{
     border-radius: 50px;
     color:black;
+    padding: 4px;
+}
+
+.botones{
+    display: flex;
+    gap: 10px;
 }
 
 .informacion-empresa{
-    text-align: center;
+    text-align:justify;
+    margin-bottom: 65px;
+    max-width: 1200px;
 }
+
+
+
