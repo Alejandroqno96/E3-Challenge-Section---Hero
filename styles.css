@@ -26,8 +26,12 @@ background: linear-gradient(4deg, rgba(38,2,61,1) 0%, rgba(92,0,0,1) 100%, rgba(
 }
 
 .logo{
-    height: 80%;
-    border-radius: 500px;
+    height:60px;
+    width: 60px;
+    border-radius:30px;
+    
+    
+   
 }
 
 .navbar, .navbar-list{
@@ -242,4 +246,28 @@ color: black;
     width: 20px;
     filter: brightness(1.1);
     mix-blend-mode: multiply;
+}
+
+.ubicacion1{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.ubicacion2{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.titulo-logo{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+.titulo-logo span{
+    color: white;
+    font-weight: 600;
 }
