@@ -161,8 +161,9 @@ color: black;
     flex-direction:row;
     justify-content: space-around;
     padding: 60px 30px;
-    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6); 
-    background: linear-gradient(to right, #FFFFFF, #ECE9E6); 
+    background: rgb(38,2,61);
+    background: linear-gradient(4deg, rgba(38,2,61,1) 0%, rgba(92,0,0,1) 100%, rgba(252,69,69,1) 100%);
+    color: white; 
 }
 
 .direcciones{
@@ -180,6 +181,7 @@ color: black;
 .iconos-redes img{
     height: 20px;
     width: 20px;
+    filter: invert(0.99);
 }
 
 .iconos-redes img:hover{
@@ -231,13 +233,16 @@ color: black;
     display: flex;
     gap: 15px;
     padding: 10px 0;
+    align-items: center;
 }
 
 .lista-info2 div{
     display: flex;
     gap: 15px;
     padding: 10px 0;
+    align-items: center;
 }
+
 
 .lista-info2 img{
     height: 20px;
@@ -279,3 +284,14 @@ color: black;
 .contenido h1{
     font-weight: 800;
 }
+
+.contacto{
+    background-color: white;
+    height: 25px;
+    display: flex;
+    border-radius: 2px;
+    align-items: center;
+}
+
+
+
