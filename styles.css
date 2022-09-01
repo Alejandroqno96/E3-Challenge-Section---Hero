@@ -7,12 +7,13 @@
     font-family: 'Poppins', sans-serif;
     text-decoration:none;
     list-style: none;
+    
 }
 
 header{
     background: #3a7bd5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3a6073, #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: rgb(38,2,61);
+background: linear-gradient(4deg, rgba(38,2,61,1) 0%, rgba(92,0,0,1) 100%, rgba(252,69,69,1) 100%);
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -25,7 +26,7 @@ header{
 }
 
 .logo{
-    height: 100%;
+    height: 80%;
     border-radius: 500px;
 }
 
@@ -42,40 +43,26 @@ header{
 
 .navbar-list{
     gap: 25px;
+}
 
+.navbar-list a{
+    color: white;
 }
-.navbar-list a:hover{
-    color:brown;
-}
+
 
 .navbar-list li:hover{
     transform: translateY(-6px);     
     transition: transform 0.4s ease;
 }
 
-#inicio{
-    color: white;
-    font-weight: 900;
-}
 
-#categorias{
-    color: white;
-}
-
-#nosotros{
-    color: white;
-}
-
-#contactos{
-    color: white;
-}
 
 main{
 background: #ECE9E6;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 display: flex;
-flex-direction: column;
+flex-direction:column;
 align-items: center;
 justify-content: center;
 color: black;
@@ -83,8 +70,8 @@ color: black;
 
 #portada{
     margin-top: 65px;
-    padding: 70px 0;
-    max-width: 1200px;
+    padding: 70px 0;    
+    max-width: 1200px;   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,7 +89,13 @@ color: black;
 
 .imagen-zapas{
     height: 400px;
-    width: 400px
+    width: 400px;
+    border-radius: 5px;     
+}
+
+.botones{
+    display: flex;
+    gap: 10px;
 }
 
 .boton1{
@@ -111,19 +104,17 @@ color: black;
     background-color: black;
     color: white;
     padding: 4px;
-
+    cursor: pointer;
 }
 
 .boton2{
     border-radius: 50px;
     color:black;
     padding: 4px;
+    cursor: pointer;
 }
 
-.botones{
-    display: flex;
-    gap: 10px;
-}
+
 
 .informacion-empresa{
     text-align:justify;
@@ -131,5 +122,97 @@ color: black;
     max-width: 1200px;
 }
 
+#cards{
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    
+}
 
+.container-cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.info-cards{
+    width: 300px;
+    height: 300px;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.container-foot{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 60px 30px;
+    /*background: rgb(38,2,61);
+    background: linear-gradient(4deg, rgba(38,2,61,1) 0%, rgba(92,0,0,1) 100%, rgba(252,69,69,1) 100%);*/
+}
+
+.direcciones{
+    display: flex;
+    gap: 60px;
+}
+
+
+.iconos-redes{
+    display: flex;
+    gap: 10px;
+}
+
+.iconos-redes img{
+    height: 15px;
+    width: 15px;
+}
+
+.iconos-redes img:hover{
+    cursor: pointer;
+}
+
+.icon-img{
+    gap: 40px;
+}
+
+.informacion{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.info-cards img{
+    height: 100px;
+    width: 100px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+.beneficios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.foto-accesorio img{
+    height: 500px;
+    width: 600px;
+}
+
+.foto-accesorio{
+    display: flex;
+   
+}
 
